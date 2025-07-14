@@ -20,13 +20,21 @@
 
 ### 使用Maven
 
-你可以通过Maven将**JLuaParser**添加到你的项目中。只需在`pom.xml`文件中添加以下依赖：
+你可以通过Maven将**JLuaParser**添加到你的项目中。只需在`pom.xml`文件中添加以下内容：
+
 
 ```xml
+<repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+</repositories>
+
 <dependency>
-    <groupId>top.skidder</groupId>
+   <groupId>com.github.FPSMasterTeam</groupId>
     <artifactId>JLuaParser</artifactId>
-    <version>1.0.0</version>
+    <version>Tag</version>
 </dependency>
 ```
 
